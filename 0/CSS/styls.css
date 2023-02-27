@@ -291,3 +291,46 @@ body {
 .testimony__review {
   font-weight: 300;
 }
+
+/* FOOTER */
+
+.footer {
+  background: var(--color-primary);
+}
+
+.footer__grid {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 20px;
+  align-items: center;
+}
+
+.footer__title {
+  font-weight: 400;
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.footer__icons {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__container-icons {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  color: #fff;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+.footer__icons{
+  color: inherit;
+  font-size: 30px;
+  text-decoration: none;
+  line-height: 60px;
+}
+
