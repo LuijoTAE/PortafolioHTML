@@ -25,10 +25,18 @@ body {
   margin-bottom: 35px;
 }
 
-/* CABECERA DE LA PAGINA
-  TITULO Y NAVEGADOR   */
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  height: 70px;
+  align-items: center;
+  font-weight: 700;
+}
 
-.hero {
+/* CABECERA DE LA PAGINA TITULO Y NAVEGADOR 
+  ------------------------------------------*/
+
+.header {
   height: 100vh;
   background-image: var(--background), url("../assets/heder1.jpg");
   background-repeat: no-repeat;
@@ -38,24 +46,11 @@ body {
   position: relative;
 }
 
-.hero .container {
+.header .container {
   padding: 0;
 }
 
-.nav {
-  display: flex;
-  justify-content: flex-end;
-  height: 70px;
-  align-items: center;
-  font-weight: 700;
-}
-
-.nav--footer {
-  font-weight: 300;
-  justify-content: flex-start;
-}
-
-.nav__items {
+.link {
   color: white;
   text-decoration: none;
   margin-right: 20px;
@@ -63,27 +58,23 @@ body {
   font-weight: inherit;
 }
 
-.nav__items--cta {
+.header .nav .cta {
   border: 1px solid white;
 }
 
-.nav__items--footer {
-  padding: 10px;
-}
-
-.hero__container {
+.header .section {
   display: flex;
   height: calc(100vh - 70px);
   align-items: center;
   color: white;
 }
 
-.hero__text {
+.header .container_text {
   width: 80%;
   margin-bottom: 50px;
 }
 
-.hero__title {
+.header .title {
   font-size: 3.2rem;
 }
 
@@ -298,26 +289,39 @@ body {
   background: var(--color-primary);
 }
 
-.footer__grid {
+.footer .grid {
   display: grid;
   grid-template-columns: 3fr 2fr;
   gap: 20px;
   align-items: center;
 }
 
-.footer__title {
+.footer .nav .link {
+  padding: 10px;
+}
+
+.footer .title {
   font-weight: 400;
   color: white;
   font-size: 2rem;
   margin-bottom: 30px;
 }
 
-.footer__icons {
+.footer .container .nav {
+  font-weight: 300;
+  justify-content: flex-start;
+}
+
+.footer .container-title {
+  display: flex;
+  justify-content: center;
+}
+.footer .container-icons {
   display: flex;
   justify-content: center;
 }
 
-.footer__container-icons {
+.footer .span-icons {
   display: inline-block;
   width: 60px;
   height: 60px;
@@ -327,13 +331,12 @@ body {
   border-radius: 50%;
 }
 
-.footer__icons {
+.footer .span-icons .icons {
   color: inherit;
   font-size: 30px;
   text-decoration: none;
   line-height: 60px;
 }
-
 /* RESPONSIVE DESING*/
 
 @media screen and (max-width: 800px) {

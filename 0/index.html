@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,18 +9,19 @@
     <link rel="stylesheet" href="CSS/normalize.css" />
     <link rel="stylesheet" href="CSS/styls.css" />
   </head>
+
   <body>
-    <header class="hero">
+    <header class="header">
       <div class="container">
         <nav class="nav">
-          <a href="#" class="nav__items nav__items--cta"> Contactame</a>
-          <a href="#section__person" class="nav__items"> Sobre mi</a>
-          <a href="#section__projects" class="nav__items"> Proyectos</a>
+          <a class="link cta" href="#"> Contactame</a>
+          <a class="link" href="#section__person"> Sobre mi</a>
+          <a class="link" href="#section__projects"> Proyectos</a>
         </nav>
 
-        <section class="hero__container">
-          <div class="hero__text">
-            <h1 class="hero__title">
+        <section class="section">
+          <div class="container_text">
+            <h1 class="title">
               Hola! soy Luis José [Technologist Developer]
             </h1>
             <h2 class="hero__subtitle">en camino a senior</h2>
@@ -28,34 +30,22 @@
         </section>
       </div>
       <div class="hero__wave" style="overflow: hidden">
-        <svg
-          viewBox="0 0 500 150"
-          preserveAspectRatio="none"
-          style="height: 100%; width: 100%"
-        >
-          <path
-            d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-            style="stroke: none; fill: white"
-          ></path>
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
+          <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+            style="stroke: none; fill: white"></path>
         </svg>
       </div>
     </header>
 
     <main>
       <section id="section__person" class="presentation container">
-        <img
-          src="assets/fila.jpg"
-          alt="Texto alternativo"
-          class="presentation__picture"
-        />
+        <img src="assets/fila.jpg" alt="Texto alternativo" class="presentation__picture" />
 
-        <h2 id="sobremi" class="subtitle">Mi nombre es: Luis José</h2>
+        <h2 id="sobremi" class="subtitle">Mi nombre es: Luis José Arrieta</h2>
 
         <p class="presentation__copy">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, quos
-          inventore eaque deserunt id nemo labore magnam aliquam molestiae
-          tempora? Exercitationem non possimus officiis, delectus ratione
-          repudiandae quisquam provident ab!
+          Soy aprendiz SENA en Análisi y desarrollo de sistemas de información.
+          Tengo 19 años de edad.
         </p>
 
         <a href="#" class="presentation__cta"> Contactame ahora </a>
@@ -111,7 +101,7 @@
         <div class="container">
           <h2 class="subtitle">Mis Proyectos</h2>
 
-          <div  class="projects__grid">
+          <div class="projects__grid">
             <article class="projects_item">
               <img src="assets/developerLeftVertical.jpg" class="projects__img" />
 
@@ -205,32 +195,31 @@
       </section>
 
       <footer class="footer">
-        <div class="container footer__grid">
-          <nav class="nav nav--footer">
-            <a class="nav__items nav__items--footer" href="#">Inicio</a>
-            <a class="nav__items nav__items--footer" href="#">Sobre mi</a>
-            <a class="nav__items nav__items--footer" href="#"
-              >Mis habilidades</a
-            >
-            <a class="nav__items nav__items--footer" href="#">Proyectos</a>
+        <div class="container grid">
+          <nav class="nav">
+            <a class="link footer" href="#">Sobre mi</a>
+            <a class="link footer" href="#">Inicio</a>
+            <a class="link footer" href="#">Mis habilidades</a>
+            <a class="link footer" href="#">Proyectos</a>
           </nav>
 
-          <section class="footer_contact">
-            <h3 class="footer__title">Contactame</h3>
-
-            <div class="footer__icons">
-              <span class="footer__container-icons">
-                <a class="fab fa-facebook footer__icons" href="#"></a>
+          <section class="section">
+            
+            <div class="container-title">
+              <h3 class="title">Contactame</h3>
+            </div>
+            
+            <div class="container-icons">
+              <span class="span-icons">
+                <a class="fab fa-facebook icons" href="#"></a>
               </span>
             </div>
           </section>
-          
+
         </div>
       </footer>
     </main>
-    <script
-      src="https://kit.fontawesome.com/13a88a6f30.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/13a88a6f30.js" crossorigin="anonymous"></script>
   </body>
+
 </html>
