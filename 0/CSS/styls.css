@@ -147,6 +147,11 @@ a{
   align-items: center;
 }
 
+.img_logo{
+  width: 50px;
+  height: 50px;
+}
+
 .about_li{
   font-weight: 600;
   margin-left: 15px;
@@ -174,6 +179,10 @@ a{
   
 }
 
+.about_paragraph-x{
+  padding: 5px 10px;
+}
+
 /* MIS PROYECTOS */
 
 .projects {
@@ -186,7 +195,7 @@ a{
   grid-template-areas:
     "img1 img1 img2 img3"
     "img1 img1 img4 img5";
-  gap: 10px;
+  gap: 25px;
 }
 
 .projects_item {
