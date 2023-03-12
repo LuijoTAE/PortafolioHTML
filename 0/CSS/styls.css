@@ -33,6 +33,10 @@ body {
   font-weight: 700;
 }
 
+a{
+  cursor: pointer;
+}
+
 /* CABECERA DE LA PAGINA TITULO Y NAVEGADOR 
   ------------------------------------------*/
 
@@ -143,6 +147,13 @@ body {
   align-items: center;
 }
 
+.about_li{
+  font-weight: 600;
+  margin-left: 15px;
+
+  padding: 10px;
+}
+
 .about__img {
   text-align: center;
 }
@@ -156,9 +167,11 @@ body {
 }
 
 .about_paragraph {
-  margin-bottom: 20px;
+  padding: 10px 10px;
   line-height: 1.5;
   font-size: 300;
+  text-align: justify;
+  
 }
 
 /* MIS PROYECTOS */
@@ -208,7 +221,7 @@ body {
 
 .projects__hover {
   position: absolute;
-  background: #dc143c8c;
+  background: #cd1439d5;
   top: 0;
   left: 0;
   width: 100%;

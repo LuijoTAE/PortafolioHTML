@@ -5,7 +5,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MyPortafolio</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/13a88a6f30.js"
+      crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/normalize.css" />
     <link rel="stylesheet" href="CSS/styls.css" />
   </head>
@@ -25,13 +46,15 @@
               Hola! soy Luis José [Technologist Developer]
             </h1>
             <h2 class="hero__subtitle">en camino a senior</h2>
-            <a href="#" class="hero__cta"> Contactame ahora </a>
+            <a id="btnContacAhora" class="hero__cta ">Contactame ahora</a>
           </div>
         </section>
       </div>
       <div class="hero__wave" style="overflow: hidden">
-        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
-          <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height:
+          100%; width: 100%">
+          <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98
+            L500.00,150.00 L0.00,150.00 Z"
             style="stroke: none; fill: white"></path>
         </svg>
       </div>
@@ -39,10 +62,10 @@
 
     <main>
       <section id="section__person" class="presentation container">
-        <img src="assets/fila.jpg" alt="Texto alternativo" class="presentation__picture" />
+        <img src="assets/fila.jpg" alt="Texto alternativo"
+          class="presentation__picture" />
 
         <h2 id="sobremi" class="subtitle">Mi nombre es: Luis José Arrieta</h2>
-
         <p class="presentation__copy">
           Soy aprendiz SENA en Análisi y desarrollo de sistemas de información.
           Tengo 19 años de edad.
@@ -53,47 +76,71 @@
 
       <section class="about container">
         <div class="about__text">
-          <h2 class="subtitle">Mis habilidades</h2>
+          <h2 class="subtitle">Mis Habilidades</h2>
+
+          <ul class="about_paragraph">
+            <li class="about_li">Facilidad de aprendiz <br> </li>
+            <li class="about_li">Enfoque y dedicación <br> </li>
+            <li class="about_li">Pensamiento lógico <br> </li>
+
+            <li class="about_li">Compromiso <br> </li>
+            <li class="about_li">Trabajo en equipo <br> </li>
+            <li class="about_li">Habilidad para trabajar con tecnología <br>
+            </li>
+          </ul>
 
           <p class="about_paragraph">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam
-            quos praesentium rem eveniet qui ipsum rerum cumque illum harum,
-            maxime iure laborum vero magnam natus voluptatem ullam beatae
-            dolorum illo!
-          </p>
-
-          <p class="about_paragraph">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam
-            quos praesentium rem eveniet qui ipsum rerum cumque illum harum,
-            maxime iure laborum vero magnam natus voluptatem ullam beatae
-            dolorum illo!
+            <span style="font-weight: 600;">Autodidacta:</span><br>
+            Creo que mi capacidad para aprender por mi cuenta es muy valiosa en
+            el campo de la programación, donde siempre hay nuevas tecnologías y
+            lenguajes que aprender. Soy muy autodidacta y me gusta buscar
+            soluciones por mi cuenta. Estoy emocionado de seguir aprendiendo y
+            creciendo como programador.
           </p>
         </div>
 
         <figure class="about__img">
-          <img src="assets/scrumReunio.jpg" class="about__picture" />
+          <img
+            src="https://img.freepik.com/vector-gratis/ilustracion-concepto-metodo-scrum_114360-13019.jpg?w=740&t=st=1678647775~exp=1678648375~hmac=9f689688d3442f91bf187b3e0be92541a9a32dae46dd5147f2bbed56b426518c"
+            class="about__picture" />
         </figure>
 
         <figure class="about__img about__img--left">
-          <img src="assets/nodeJsTarget.jpg" class="about__picture" />
+          <img src="https://i.blogs.es/435d63/full_stack/1366_2000.jpg"
+            class="about__picture" />
         </figure>
 
         <div class="about__text">
-          <h2 class="subtitle">Sobre mi</h2>
+          <h2 class="subtitle">Tecnologías</h2>
 
-          <p class="about_paragraph">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam
-            quos praesentium rem eveniet qui ipsum rerum cumque illum harum,
-            maxime iure laborum vero magnam natus voluptatem ullam beatae
-            dolorum illo!
-          </p>
+          <ul class="about_paragraph">
+            <li class="about_li">
+              Python <img src="../0/assets/python-svg.svg"/> 
+                Flutter <img src="../0/assets/flutter.svg"/><br>
+            </li>
 
-          <p class="about_paragraph">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam
-            quos praesentium rem eveniet qui ipsum rerum cumque illum harum,
-            maxime iure laborum vero magnam natus voluptatem ullam beatae
-            dolorum illo!
-          </p>
+            <li class="about_li">
+              Java <img src="../0/assets/java-coffee.svg" />
+                CSharp <img src="../0/assets/Csharp.svg"/> <br>
+            </li>
+
+            <li class="about_li">
+              SQLServer <img src="../0/assets/sql-server.svg" />
+                PostgreSQL <img src="../0/assets/postgresql.svg" /><br>
+            </li>
+
+            <li class="about_li">
+              HTML5 <img src="../0/assets/html5-60.png" /> 
+                CSS3 <img src="assets/css3.svg" /><br>
+            </li>
+
+            <li class="about_li">
+              JavaScrip <img src="../0/assets/javascript.svg" />
+                MySQL <img src="../0/assets/my-sql.svg" /><br>
+            </li>
+            
+
+          </ul>
         </div>
       </section>
 
@@ -103,49 +150,96 @@
 
           <div class="projects__grid">
             <article class="projects_item">
-              <img src="assets/developerLeftVertical.jpg" class="projects__img" />
+              <img src="../0/assets/api.jpg" style="max-width:350px ;"
+                class="projects__img"
+                />
 
               <div class="projects__hover">
-                <h2 class="projects__title">Proyecto</h2>
+                <h2 class="projects__title">Rest API</h2>
 
                 <i class="far fa-file-alt projects__icon"></i>
+
+                <p class="about_paragraph">
+                  Durante una transferencia de conocimiento por parte de
+                  REALFIRE SAS se desarrolló la EstudentAPI, la cual realiza una
+                  consulta y muestra la información en forma de una lista.
+                  <div>
+                    <span>Flutter</span>
+                    <br>
+                    <span>pgAdmin</span>
+                    <br>
+                    <span>PostgreSQL</span>
+                    <br>
+                    <span>Java Spring Boot</span>
+                    <br>
+                  </div>
+                </p>
               </div>
             </article>
 
             <article class="projects_item">
-              <img src="assets/relojPcCode.jpg" class="projects__img" />
+              <img src="../0/assets/S (1).jpg" class="projects__img" />
 
               <div class="projects__hover">
-                <h2 class="projects__title">Proyecto</h2>
+                <h2 class="projects__title">Spartan GYM</h2>
 
                 <i class="far fa-file-alt projects__icon"></i>
+
+                <p class="about_paragraph">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                  quod sit at nesciunt iure fugiat eos provident in aperiam
+                  veniam. Nisi atque a aspernatur quisquam ipsum tempora eius
+                  minus labore.
+                </p>
               </div>
             </article>
 
             <article class="projects_item">
-              <img src="assets/scrumTarget.jpg" class="projects__img" />
-
+              <img src="../0/assets/masterPages.jpg" class="projects__img" />
               <div class="projects__hover">
-                <h2 class="projects__title">Proyecto</h2>
+                <h2 class="projects__title">Master Page Web Fomrs</h2>
+
                 <i class="far fa-file-alt projects__icon"></i>
+
+                <p class="about_paragraph">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                  quod sit at nesciunt iure fugiat eos provident in aperiam
+                  veniam. Nisi atque a aspernatur quisquam ipsum tempora eius
+                  minus labore.
+                </p>
               </div>
             </article>
 
             <article class="projects_item">
-              <img src="assets/escribiendoCod.jpg" class="projects__img" />
+              <img src="../0/assets/oxo.jpg" class="projects__img" />
 
               <div class="projects__hover">
-                <h2 class="projects__title">Proyecto</h2>
+                <h2 class="projects__title">OXO Shop</h2>
+
                 <i class="far fa-file-alt projects__icon"></i>
+
+                <p class="about_paragraph">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                  quod sit at nesciunt iure fugiat eos provident in aperiam
+                  veniam. Nisi atque a aspernatur quisquam ipsum tempora eius
+                  minus labore.
+                </p>
               </div>
             </article>
 
             <article class="projects_item">
-              <img src="assets/heder1.jpg" class="projects__img" />
-
+              <img src="../0/assets/SenaEvents.jpg" class="projects__img" />
               <div class="projects__hover">
-                <h2 class="projects__title">Proyecto</h2>
+                <h2 class="projects__title">SenaEvents</h2>
+
                 <i class="far fa-file-alt projects__icon"></i>
+
+                <p class="about_paragraph">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                  quod sit at nesciunt iure fugiat eos provident in aperiam
+                  veniam. Nisi atque a aspernatur quisquam ipsum tempora eius
+                  minus labore.
+                </p>
               </div>
             </article>
           </div>
@@ -158,10 +252,11 @@
         <div class="testimony__grid">
           <article class="testimony__item">
             <div class="testimony__person">
-              <img src="assets/IndividualGraduacion.jpg" class="testimony__img" />
+              <img src="assets/IndividualGraduacion.jpg" class="testimony__img"
+                />
 
               <div class="testimony__texts">
-                <h3 class="testimony_name">Hugo</h3>
+                <h3 class="testimony_name">Default Person</h3>
                 <p class="testimony__verefication">Crador de Apple</p>
               </div>
             </div>
@@ -176,10 +271,11 @@
 
           <article class="testimony__item">
             <div class="testimony__person">
-              <img src="assets/IndividualGraduacion.jpg" class="testimony__img" />
+              <img src="assets/IndividualGraduacion.jpg" class="testimony__img"
+                />
 
               <div class="testimony__texts">
-                <h3 class="testimony_name">Hugo</h3>
+                <h3 class="testimony_name">Default Person</h3>
                 <p class="testimony__verefication">Crador de Apple</p>
               </div>
             </div>
@@ -204,11 +300,11 @@
           </nav>
 
           <section class="section">
-            
+
             <div class="container-title">
               <h3 class="title">Contactame</h3>
             </div>
-            
+
             <div class="container-icons">
               <span class="span-icons">
                 <a class="fab fa-facebook icons" href="#"></a>
@@ -219,7 +315,8 @@
         </div>
       </footer>
     </main>
-    <script src="https://kit.fontawesome.com/13a88a6f30.js" crossorigin="anonymous"></script>
+    
+    <script src="../0/JavaScrip.js"></script>
   </body>
 
 </html>
